@@ -15,9 +15,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <nav class="bg-[#412567]">
+    <!-- Navbar part start -->
+    <nav class="bg-[#1A0B2E]">
       <div class="lg:max-w-[1200px] mx-auto">
-        <div class="flex justify-between items-center py-8 mx-5 lg:mx-0">
+        <div class="flex justify-between items-center py-8 mx-5">
           <h2 class="text-3xl font-extrabold text-white font-inter">
             Tech<span
               class="bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] text-transparent bg-clip-text"
@@ -31,16 +32,63 @@
             <li><a href="">Episodes</a></li>
             <li><a href="">Host</a></li>
           </ul>
+
           <button
-            class="cursor-pointer font-semibold text-white bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-5 py-2 rounded-4xl leading-normal hover:transition-all hide"
+            class="cursor-pointer font-semibold text-white bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-5 py-2 rounded-4xl leading-normal hide hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 text-black hover:text-white font-semibold py-2 px-4 rounded transition duration-500"
           >
             Subscribe<i class="fa-solid fa-arrow-right ml-2"></i>
           </button>
+
           <div class="lg:hidden md:hidden">
             <i class="fa-solid fa-list text-white text-2xl cursor-pointer"></i>
           </div>
         </div>
       </div>
     </nav>
+    <!-- Navbar part end -->
+    <!-- Banner part start -->
+    <section class="bg-[url('assets/hero-bg.png')] bg-cover bg-center">
+      <div class="lg:max-w-[1200px] mx-auto py-[101px] width">
+        <div class="flex justify-center items-center">
+          <img
+            src="/assets/hero-circle.png"
+            alt=""
+            class="lg:w-[350px] relative"
+          />
+          <img
+            src="/assets/microphone.png"
+            alt=""
+            class="lg:w-[117px] absolute"
+          />
+        </div>
+        <div
+          class="flex flex-col justify-center items-center mt-10 text-white font-inter"
+        >
+          <h2 class="mb-2 font-extrabold text-6xl">TechWave</h2>
+          <p class="para">
+            Your daily dose of tech insights, productivity hacks, and personal
+            growth
+          </p>
+          <div class="flex items-center justify-center gap-2 mt-6 font-inter">
+            <button
+              class="flex gap-2 cursor-pointer font-semibold text-white bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-5 py-2 rounded-4xl leading-normal hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 text-black hover:text-white font-semibold py-2 px-4 rounded transition duration-500"
+            >
+              <img src="./assets/spotify.png" alt="" />
+              Listen on Spotify
+            </button>
+            <button
+              class="flex items-center gap-2 px-5 py-2 rounded-4xl font-semibold"
+            >
+              <img
+                src="assets/message.png"
+                alt=""
+                class="w-[17px] h-[13.5px]"
+              />
+              <p>Subscribe</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
