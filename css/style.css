@@ -47,8 +47,8 @@ img {
 .animate {
   position: absolute;
   animation: glowPulse 1.8s infinite ease-in-out;
-  top: 31%;
-  right: 40%;
+  top: 0%;
+  right: 15%;
 }
 /* Responsive */
 @media (max-width: 992px), (max-width: 1024px) {
@@ -59,8 +59,8 @@ img {
     text-align: center;
   }
   .animate {
-    top: 15%;
-    right: 40%;
+    top: 1%;
+    right: -8%;
   }
 }
 @media (max-width: 768px) {
@@ -87,7 +87,7 @@ img {
     font-weight: 400;
   }
   .animate {
-    top: 16%;
-    right: 29%;
+    top: -8%;
+    right: 5%;
   }
 }
