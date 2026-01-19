@@ -34,7 +34,7 @@
           </ul>
 
           <button
-            class="cursor-pointer font-semibold text-white bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-5 py-2 rounded-4xl leading-normal hide hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 text-black hover:text-white font-semibold py-2 px-4 rounded transition duration-500"
+            class="cursor-pointer font-semibold text-white px-5 py-2 rounded-4xl leading-normal hide font-semibold py-2 px-4 rounded nav-btn"
           >
             Subscribe<i class="fa-solid fa-arrow-right ml-2"></i>
           </button>
@@ -47,69 +47,58 @@
         </div>
       </div>
     </nav>
-    <!-- <nav class="bg-[#1A0B2E] border-b-1 border-solid border-[#222222]">
-      <div class="lg:hidden md:hidden flex justify-between p-5">
-        <h2 class="text-3xl font-extrabold text-white font-inter">
-          Tech<span
-            class="bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] text-transparent bg-clip-text"
-            >Wave</span
-          >
-        </h2>
-        <i class="fa-solid fa-list text-white text-2xl cursor-pointer"></i>
-      </div>
-    </nav> -->
     <!-- Navbar part end -->
     <!-- Banner part start -->
-    <section class="">
-      <div class="bg-[url('assets/hero-bg.png')] bg-center">
-        <div class="lg:py-[101px] py-10 mx-auto">
-          <div
-            class="lg:max-w-[550px] mx-auto flex justify-center items-center"
+    <section
+      class="bg-[url('assets/hero-bg.png')] bg-center bg-cover lg:py-[101px] py-10"
+    >
+      <div
+        class="lg:w-[550px] mx-auto flex flex-col justify-center items-center"
+      >
+        <div class="flex justify-center items-center">
+          <img
+            src="assets/hero-circle.png"
+            alt=""
+            class="relative lg:w-[350px] w-[200px]"
+          />
+          <img
+            src="assets/microphone.png"
+            alt=""
+            class="absolute lg:w-117px w-[80px]"
+          />
+          <p
+            class="absolute transform font-semibold text-[18px] font-inter bg-[#00ff88] py-2 px-4 rounded-3xl box animate"
           >
-            <img
-              src="assets/hero-circle.png"
-              alt=""
-              class="lg:w-[350px] w-[200px] relative"
-            />
-            <img
-              src="assets/microphone.png"
-              alt=""
-              class="lg:w-[117px] w-[80px] absolute"
-            />
-            <p
-              class="absolute transform font-semibold text-[18px] font-inter bg-[#00ff88] py-2 px-4 rounded-3xl box"
-            >
-              New
-            </p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center mt-10 text-white font-inter"
-          >
-            <h2 class="mb-2 font-extrabold lg:text-6xl text-[40px]">
-              TechWave
-            </h2>
-            <p class="para">
-              Your daily dose of tech insights, productivity hacks, and personal
-              growth
-            </p>
-            <div class="flex items-center justify-center gap-2 mt-6 font-inter">
-              <button
-                class="flex gap-2 cursor-pointer font-semibold text-white bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-5 py-2 rounded-4xl leading-normal hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 text-black hover:text-white font-semibold py-2 px-4 rounded transition duration-500"
-              >
-                <img src="./assets/spotify.png" alt="" />
-                Listen on Spotify
-              </button>
+            New
+          </p>
+        </div>
 
-              <button
-                class="cursor-pointer font-semibold text-[#00FF88] border border-[#00FF88] rounded-4xl px-5 py-2 hover:bg-[#b202e3] transition duration-500 hover:text-[#f7c852] hover:border-0"
-              >
-                <i class="fa-regular fa-envelope me-2"></i>Subscribe
-              </button>
-            </div>
-          </div>
+        <h2
+          class="mb-2 font-extrabold lg:text-6xl text-[40px] mt-10 text-white font-inter"
+        >
+          TechWave
+        </h2>
+        <p class="para text-white font-inter">
+          Your daily dose of tech insights, productivity hacks, and personal
+          growth
+        </p>
+        <div class="flex items-center justify-center gap-2 mt-6 font-inter">
+          <button
+            class="flex gap-2 cursor-pointer font-semibold text-white px-5 py-2 rounded-4xl leading-normal font-semibold py-2 px-4 rounded nav-btn"
+          >
+            <img src="./assets/spotify.png" alt="" />
+            Listen on Spotify
+          </button>
+
+          <button
+            class="cursor-pointer font-semibold text-[#00FF88] border border-[#00FF88] rounded-4xl px-5 py-2 btn-subscribe"
+          >
+            <i class="fa-regular fa-envelope me-2"></i>Subscribe
+          </button>
         </div>
       </div>
     </section>
+
     <!-- Banner part end -->
     <!-- Podcast part start -->
     <section class="bg-[#1A0B2E]">
@@ -169,7 +158,7 @@
           Why Choose TechWave
         </h2>
         <div
-          class="grid lg:grid-cols-3 grid-cols-1 lg:grid-rows-3 md:grid-cols-2 justify-around gap-7 mx-4 lg:mx-0"
+          class="grid lg:grid-cols-3 grid-cols-1 lg:grid-rows-3 md:grid-cols-2 justify-around lg:gap-7 gap-4 mx-4"
         >
           <div
             class="lg:col-span-1 lg:row-span-2 col-span-2 row-span-1 bg-gradient-to-tr from-[#351165] to-[#6A22CB] lg:py-[107px] lg:px-10 p-6 rounded-[40px] text-white font-inter"
@@ -236,7 +225,7 @@
           Featured Episode
         </h2>
         <div
-          class="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 justify-around gap-7 mx-4 lg:mx-0"
+          class="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 justify-around lg:gap-7 gap-4 mx-4"
         >
           <div class="">
             <iframe
@@ -360,7 +349,7 @@
           Meet The Host
         </h2>
         <div
-          class="lg:flex gap-6 items-center bg-gradient-to-tr from-[#351165] to-[#6A22CB] rounded-[40px] p-6 mx-4 lg:mx-0"
+          class="lg:flex gap-6 items-center bg-gradient-to-tr from-[#351165] to-[#6A22CB] rounded-[40px] p-6 mx-4"
         >
           <img src="assets/host.png" alt="Host" class="mx-auto" />
           <div
@@ -402,38 +391,42 @@
     </section>
     <!-- Host  section end -->
     <!-- Footer section start -->
-    <footer class="bg-[url('assets/footer-bg.png')] bg-center">
-      <div class="lg:py-[120px] py-10 mx-auto text-center lg:">
-        <h2 class="text-5xl font-extrabold text-white font-inter mb-8">
+    <footer
+      class="bg-[url('assets/footer-bg.png')] bg-cover bg-center max-w-100%"
+    >
+      <div
+        class="lg:py-[120px] py-10 mx-auto text-center flex flex-col items-center justify-center gap-8"
+      >
+        <h2 class="text-5xl text-[32px] font-extrabold text-white font-inter">
           Tech<span
             class="bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] text-transparent bg-clip-text"
             >Wave</span
           >
         </h2>
         <div
-          class="lg:w-[700px] mx-auto grid lg:grid-cols-4 grid-cols-2 justify-items-center text-white opacity-60 mb-8 font-inter font-medium lg:gap-0 gap-6"
+          class="lg:w-[544px] mx-auto grid lg:grid-cols-4 grid-cols-2 justify-items-center items-center text-white opacity-60 font-inter font-medium lg:gap-0 gap-6 text-[12px]"
         >
-          <div class="flex gap-4">
+          <div class="flex gap-4 items-center justify-between">
             <img src="assets/spotify.png" alt="Spotify" class="w-6 h-6" />
             <p>Spotify</p>
           </div>
-          <div class="flex gap-4">
-            <img
-              src="assets/youtube-podcast.png"
-              alt="Apple-podcast"
-              class="w-6 h-6"
-            />
-            <p>Apple podcasts</p>
-          </div>
-          <div class="flex gap-4">
+          <div class="flex gap-4 items-center justify-between">
             <img
               src="assets/apple-podcast.png"
               alt="Apple-podcast"
               class="w-6 h-6"
             />
+            <p>Apple podcasts</p>
+          </div>
+          <div class="flex gap-4 items-center justify-between ml-10 lg:ml-0">
+            <img
+              src="assets/youtube-podcast.png"
+              alt="youtube-podcast.png"
+              class="w-6 h-6"
+            />
             <p>Youtube</p>
           </div>
-          <div class="flex gap-4">
+          <div class="flex gap-4 items-center justify-between">
             <img src="assets/twitter.png" alt="Apple-podcast" class="w-6 h-6" />
             <p>Twitter</p>
           </div>
