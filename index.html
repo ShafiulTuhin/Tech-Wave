@@ -14,11 +14,11 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body class="">
     <!-- Navbar part start -->
     <nav class="bg-[#1A0B2E] border-b-1 border-solid border-[#222222]">
       <div class="lg:max-w-[1200px] mx-auto">
-        <div class="flex justify-between items-center py-8 mx-5">
+        <div class="flex justify-between items-center py-8 mx-4 lg:mx-0">
           <h2 class="text-3xl font-extrabold text-white font-inter">
             Tech<span
               class="bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] text-transparent bg-clip-text"
@@ -61,13 +61,15 @@
     <!-- Navbar part end -->
     <!-- Banner part start -->
     <section class="">
-      <div class="bg-[url('assets/hero-bg.png')] bg-center mx-auto bg-cover">
-        <div class="lg:py-[101px] py-10">
-          <div class="lg:w-[550px] mx-auto flex justify-center items-center">
+      <div class="bg-[url('assets/hero-bg.png')] bg-center">
+        <div class="lg:py-[101px] py-10 mx-auto">
+          <div
+            class="lg:max-w-[550px] mx-auto flex justify-center items-center"
+          >
             <img
               src="assets/hero-circle.png"
               alt=""
-              class="lg:w-[350px] md:w-100% w-[200px] relative"
+              class="lg:w-[350px] w-[200px] relative"
             />
             <img
               src="assets/microphone.png"
@@ -399,5 +401,48 @@
       </div>
     </section>
     <!-- Host  section end -->
+    <!-- Footer section start -->
+    <footer class="bg-[url('assets/footer-bg.png')] bg-center">
+      <div class="lg:py-[120px] py-10 mx-auto text-center lg:">
+        <h2 class="text-5xl font-extrabold text-white font-inter mb-8">
+          Tech<span
+            class="bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] text-transparent bg-clip-text"
+            >Wave</span
+          >
+        </h2>
+        <div
+          class="lg:w-[700px] mx-auto grid lg:grid-cols-4 grid-cols-2 justify-items-center text-white opacity-60 mb-8 font-inter font-medium lg:gap-0 gap-6"
+        >
+          <div class="flex gap-4">
+            <img src="assets/spotify.png" alt="Spotify" class="w-6 h-6" />
+            <p>Spotify</p>
+          </div>
+          <div class="flex gap-4">
+            <img
+              src="assets/youtube-podcast.png"
+              alt="Apple-podcast"
+              class="w-6 h-6"
+            />
+            <p>Apple podcasts</p>
+          </div>
+          <div class="flex gap-4">
+            <img
+              src="assets/apple-podcast.png"
+              alt="Apple-podcast"
+              class="w-6 h-6"
+            />
+            <p>Youtube</p>
+          </div>
+          <div class="flex gap-4">
+            <img src="assets/twitter.png" alt="Apple-podcast" class="w-6 h-6" />
+            <p>Twitter</p>
+          </div>
+        </div>
+        <p class="text-center text-[#FAFAFA]">
+          © 2026 TechWave Podcast. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- Footer section end -->
   </body>
 </html>
