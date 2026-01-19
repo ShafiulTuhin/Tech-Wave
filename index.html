@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- Navbar part start -->
-    <nav class="bg-[#1A0B2E]">
+    <nav class="bg-[#1A0B2E] border-b-1 border-solid border-[#222222]">
       <div class="lg:max-w-[1200px] mx-auto">
         <div class="flex justify-between items-center py-8 mx-5">
           <h2 class="text-3xl font-extrabold text-white font-inter">
@@ -47,58 +47,99 @@
     </nav>
     <!-- Navbar part end -->
     <!-- Banner part start -->
-    <section class="bg-[url('../assets/hero-bg.png')] bg-center">
-      <div class="lg:max-w-[1200px] mx-auto py-[101px]">
-        <div class="flex justify-center items-center">
-          <img
-            src="/assets/hero-circle.png"
-            alt=""
-            class="lg:w-[350px] w-[200px] relative"
-          />
-          <img
-            src="/assets/microphone.png"
-            alt=""
-            class="lg:w-[117px] w-[80px] absolute"
-          />
-          <p
-            class="absolute transform font-semibold text-[18px] font-inter bg-[#00ff88] py-2 px-4 rounded-3xl box"
+    <section class="">
+      <div
+        class="bg-[url('assets/hero-bg.png')] max-w-full bg-center max-h-screen"
+      >
+        <div class="mx-auto lg:py-[101px] py-10">
+          <div class="flex justify-center items-center">
+            <img
+              src="/assets/hero-circle.png"
+              alt=""
+              class="lg:w-[350px] w-[200px] relative"
+            />
+            <img
+              src="/assets/microphone.png"
+              alt=""
+              class="lg:w-[117px] w-[80px] absolute"
+            />
+            <p
+              class="absolute transform font-semibold text-[18px] font-inter bg-[#00ff88] py-2 px-4 rounded-3xl box"
+            >
+              New
+            </p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center mt-10 text-white font-inter"
           >
-            New
+            <h2 class="mb-2 font-extrabold text-6xl">TechWave</h2>
+            <p class="para">
+              Your daily dose of tech insights, productivity hacks, and personal
+              growth
+            </p>
+            <div class="flex items-center justify-center gap-2 mt-6 font-inter">
+              <button
+                class="flex gap-2 cursor-pointer font-semibold text-white bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-5 py-2 rounded-4xl leading-normal hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 text-black hover:text-white font-semibold py-2 px-4 rounded transition duration-500"
+              >
+                <img src="./assets/spotify.png" alt="" />
+                Listen on Spotify
+              </button>
+
+              <button
+                class="cursor-pointer font-semibold text-[#00FF88] border border-[#00FF88] rounded-4xl px-5 py-2 hover:bg-[#b202e3] transition duration-500 hover:text-[#f7c852] hover:border-0"
+              >
+                <i class="fa-regular fa-envelope me-2"></i>Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner part end -->
+    <!-- Podcast part start -->
+    <section class="bg-[#1A0B2E]">
+      <div class="max-w-[1200px] mx-auto">
+        <div
+          class="font-inter lg:pt-12 lg:pb-20 py-10 text-center text-white border-b-1 border-solid border-[#222222]"
+        >
+          <h2 class="font-bold text-5xl mb-4">About the Podcast</h2>
+          <p class="opacity-80 leading-5 w-2/3 mx-auto mb-7">
+            TechWave is your go-to podcast for staying ahead in the fast-paced
+            world of technology. We break down complex topics into digestible
+            insights, explore productivity strategies that actually work, and
+            share stories of personal growth from industry leaders.
+          </p>
+          <p class="opacity-80 leading-5 w-2/3 mx-auto">
+            Join thousands of young professionals and tech enthusiasts who start
+            their day with TechWave.
           </p>
         </div>
         <div
-          class="flex flex-col justify-center items-center mt-10 text-white font-inter"
+          class="lg:pt-20 lg:pb-[120px] py-10 text-white leading-5 grid lg:grid-cols-4 grid-cols-2 gap-6 lg:gap-0 place-items-center"
         >
-          <h2 class="mb-2 font-extrabold text-6xl">TechWave</h2>
-          <p class="para">
-            Your daily dose of tech insights, productivity hacks, and personal
-            growth
-          </p>
-          <div class="flex items-center justify-center gap-2 mt-6 font-inter">
-            <button
-              class="flex gap-2 cursor-pointer font-semibold text-white bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-5 py-2 rounded-4xl leading-normal hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 text-black hover:text-white font-semibold py-2 px-4 rounded transition duration-500"
-            >
-              <img src="./assets/spotify.png" alt="" />
-              Listen on Spotify
-            </button>
-
-            <!-- <div
-              class="flex items-center gap-2 border border-[#00FF88] rounded-4xl px-5 py-2"
-            >
-              <img
-                src="assets/message.png"
-                alt=""
-                class="w-[17px] h-[13.5px]"
-              />
-              <button class="cursor-pointer font-semibold text-[#00FF88]">
-                Subscribe
-              </button>
-            </div> -->
-            <button
-              class="cursor-pointer font-semibold text-[#00FF88] border border-[#00FF88] rounded-4xl px-5 py-2 hover:bg-[#b202e3] transition duration-500 hover:text-[#f7c852] hover:border-0"
-            >
-              <i class="fa-regular fa-envelope me-2"></i>Subscribe
-            </button>
+          <div class="font-inter">
+            <h2 class="font-black text-5xl text-[#00FF88] space-x-1.5 mb-4">
+              150K+
+            </h2>
+            <p>Monthly Listeners</p>
+          </div>
+          <div>
+            <h2 class="font-black text-5xl text-[#00FF88] space-x-1.5 mb-4">
+              200+
+            </h2>
+            <p>Episodes Published</p>
+          </div>
+          <div>
+            <h2 class="font-black text-5xl text-[#00FF88] space-x-1.5 mb-4">
+              4.9★
+            </h2>
+            <p>Average Rating</p>
+          </div>
+          <div>
+            <h2 class="font-black text-5xl text-[#00FF88] space-x-1.5 mb-4">
+              50+
+            </h2>
+            <p>Industry Experts</p>
           </div>
         </div>
       </div>
