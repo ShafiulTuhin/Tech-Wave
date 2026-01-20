@@ -8,6 +8,10 @@
 * {
   font-family: "Inter", sans-serif;
 }
+ul li:hover {
+  transform: scale(1.2);
+  transition: all linear.5s;
+}
 
 .nav-btn {
   background-image: linear-gradient(to right, #f7e93f, #fb09b4, #9100f8);
@@ -21,7 +25,7 @@
   transition: all linear 0.6s;
 }
 .btn-subscribe:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 @keyframes animation {
