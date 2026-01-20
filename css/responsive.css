@@ -1,0 +1,47 @@
+/* Responsive */
+@media (max-width: 992px), (max-width: 1024px) {
+  /* .box {
+    transform: translate(85%, -200%);
+  } */
+  .custom-img {
+  }
+  .para {
+    text-align: center;
+  }
+  .animate {
+    top: 1%;
+    right: 7%;
+  }
+}
+@media (max-width: 768px) {
+  .hide {
+    display: none;
+  }
+  /* .custom-img {
+    background-image: url("../assets/hero-circle.png");
+    width: 100%;
+    object-fit: cover;
+  } */
+}
+@media (max-width: 576px) {
+  .hide {
+    display: none;
+  }
+
+  .para {
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  .box p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .animate {
+    top: -8%;
+    right: 5%;
+  }
+  img {
+    object-fit: cover;
+  }
+}
