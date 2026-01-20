@@ -25,7 +25,7 @@
 .btn-subscribe:hover {
   transform: scale(1.5);
 }
-@keyframes glowPulse {
+@keyframes animation {
   0% {
     box-shadow: 0 0 0 rgba#00ff88;
     transform: scale(1);
@@ -41,7 +41,7 @@
 }
 .animate {
   position: absolute;
-  animation: glowPulse 1.8s infinite ease-in-out;
-  top: 0%;
-  right: 15%;
+  animation: animation 1.8s infinite ease-in-out;
+  top: 4%;
+  right: 5%;
 }
