@@ -5,12 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-/* img {
-  vertical-align: middle;
-} */
-.font-inter {
+* {
   font-family: "Inter", sans-serif;
 }
+
 .nav-btn {
   background-image: linear-gradient(to right, #f7e93f, #fb09b4, #9100f8);
   transition: 0.6s;
@@ -25,6 +23,7 @@
 .btn-subscribe:hover {
   transform: scale(1.5);
 }
+
 @keyframes animation {
   0% {
     box-shadow: 0 0 0 rgba#00ff88;
